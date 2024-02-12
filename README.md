@@ -17,6 +17,8 @@ See [./reports/report.md](./reports/report.md)
 
 See [./notebooks/](./notebooks/)
 
+## Oppgave:
+![image](https://github.com/Markustho/DAT255-group12/assets/122047522/b8ac9188-b223-4fb7-99d0-ac0d4a1cddcd)
 
 ## Project Organization
 ------------
