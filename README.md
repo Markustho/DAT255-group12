@@ -81,8 +81,11 @@ src/models/Neural network/  -
 # How to run
 Use poetry to install the neccesary components https://python-poetry.org/docs/basic-usage/
 Bash:
->>cd repository folder
->>poetry init
->>poetry install
->>poetry python run "filename.type"
+cd repository folder
+>>
+poetry init
+>>
+poetry install
+>>
+poetry python run "filename.type"
 
