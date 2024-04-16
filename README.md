@@ -72,3 +72,17 @@ See [./notebooks/](./notebooks/)
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+# Key files
+Kaggle_notebook.ipynb - File to get a feel for the machine learning methods and data handling. Treat as the main file
+src/models/random forest/  - random forest tester with splitter
+src/models/Neural network/  - 
+
+# How to run
+Use poetry to install the neccesary components https://python-poetry.org/docs/basic-usage/
+Bash:
+>>cd repository folder
+>>poetry init
+>>poetry install
+>>poetry python run "filename.type"
+
