@@ -2,7 +2,7 @@ Deep learning for tabular data
 ==============================
 
 A practical application of machine learning and deep learning on tabular dataset from EDP. Wind turbine
-data by was retrieved from their webpage https://www.edp.com/en/innovation/open-data/data. In this project the prediction models had a goal to guess on the bearing temperature of the generator. Different approaches are explored in the repositiory with variations of models, validation sets, training, and feature engineering. The project uses reseach paper by Bindingsbø, Singh, Kaprate, Øvsthus 
+data by was retrieved from their webpage https://www.edp.com/en/innovation/open-data/data. In this project the prediction models had a goal to guess on the bearing temperature of the generator. Different approaches are explored in the repositiory with variations of models, validation sets, training, and feature engineering. The project uses reseach paper by Bindingsbø, Singh, Kaprate, Øvsthus [1]
 
 
 The slides accompanying the project can be found [here](https://docs.google.com/presentation/d/e/2PACX-1vSFtTsAzrGwXETVMaQlbelOe8VNptf3GTVGABAKh6koSu2Wcu74QdYOkh7-W6blsB5xUwNljDwA4I0C/pub?start=false&loop=false&delayms=3000).
@@ -84,14 +84,14 @@ Use poetry to install the neccesary components https://python-poetry.org/docs/ba
 
 Bash:
 
-cd repository folder
+> cd repository folder
+
+> poetry init
+
+> poetry install
+
+> poetry python run "filename.type"
+
 
 Bibliography:
 [1] O. T. Bindingsbø, M. Singh, K. Øvsthus, og A. Keprate, «Fault detection of a wind turbine generator bearing using interpretable machine learning», Front. Energy Res., bd. 11, s. 1284676, des. 2023, doi: 10.3389/fenrg.2023.1284676.
-
-poetry init
->>
-poetry install
->>
-poetry python run "filename.type"
-
