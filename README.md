@@ -1,9 +1,8 @@
-Agriculture Technology (AgTech)
+Deep learning for tabular data
 ==============================
 
-A hands-on exploration of the world of AgTech.
-
-> This is an example used in [DAT255](https://github.com/HVL-ML/DAT255). It is a skeleton project meant to help students get started with their own projects.
+A practical application of machine learning and deep learning on tabular dataset from EDP. Wind turbine
+data by was retrieved from their webpage https://www.edp.com/en/innovation/open-data/data. In this project the prediction models had a goal to guess on the bearing temperature of the generator. Different approaches are explored in the repositiory with variations of models, validation sets, training, and feature engineering. 
 
 
 The slides accompanying the project can be found [here](https://docs.google.com/presentation/d/e/2PACX-1vSFtTsAzrGwXETVMaQlbelOe8VNptf3GTVGABAKh6koSu2Wcu74QdYOkh7-W6blsB5xUwNljDwA4I0C/pub?start=false&loop=false&delayms=3000).
