@@ -77,21 +77,25 @@ src/models/random forest/  - random forest tester with splitter (this folder has
 src/models/Neural network/  - neural network with splitter (this folder has multiple files)
 
 # How to run
-Use poetry to install the neccesary components https://python-poetry.org/docs/basic-usage/
+Use poetry to install the necessary project dependencies https://python-poetry.org/docs/basic-usage/
 
 1. Clone the github repository
 
 2. Open powershell
 
 ## Bash:
-Locate source folder
-> cd "repository source folder"
+Locate repository folder
+> cd into repository
 
 Use poetry to install the dependencies for the project
+´´´shell
 > poetry install
+> ´´´
 
 Run whatever file you want to view from key files from above section
+´´´shell
 > poetry python run "filename.type"
+> ´´´
 
 # An exploration of the world of AgTech
 
