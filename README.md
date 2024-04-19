@@ -25,16 +25,14 @@ See [./notebooks/](./notebooks/)
     │
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── models             <- Contains .pkl files from the deep and tree model
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- Not in use                                     
     │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    ├── references         <- The paper used as reference is located here
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
+    ├── reports            <- Not in use
+    │   └── figures        <- Not in use
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
@@ -43,17 +41,24 @@ See [./notebooks/](./notebooks/)
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
-    │   ├── data           <- Scripts to download or generate data
+    │   ├── data           <- Not in use
     │   │   └── make_dataset.py
     │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
+    │   ├── features       <- Not in use
     │   │   └── build_features.py
     │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
+    │   ├── models         <- 
+    │   │   │                 
+    │   │   ├── Kaggle_notebook.ipynb 
+    │   │   └── Neural Network
+    │   │   │                └── 4_neural_network.ipynb
+    │   │   └── Random Forest
+    │   │                    └── 1_split_datasets.ipynb
+    │   │                    └── 2_clean_data_train_model.ipynb
+    │   │                    └── 3_use_RF_model.ipynb
+    │   │                    └── 5_interpreting_results.ipynb
+    │   │                    
+    │   │                    
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │       └── visualize.py
     │
@@ -67,9 +72,9 @@ See [./notebooks/](./notebooks/)
 # Key files
 src/models/Kaggle_notebook.ipynb - File to get a feel for the machine learning methods and data handling. Make this the first file you read
 
-src/models/random forest/  - random forest tester with splitter
+src/models/random forest/  - random forest tester with splitter (this folder has multiple files)
 
-src/models/Neural network/  - neural network with splitter
+src/models/Neural network/  - neural network with splitter (this folder has multiple files)
 
 # How to run
 Use poetry to install the neccesary components https://python-poetry.org/docs/basic-usage/
@@ -91,5 +96,6 @@ Run whatever file you want to view from key files from above section
 
 
 
-Bibliography:
+# Bibliography:
+
 [1] O. T. Bindingsbø, M. Singh, K. Øvsthus, og A. Keprate, «Fault detection of a wind turbine generator bearing using interpretable machine learning», Front. Energy Res., bd. 11, s. 1284676, des. 2023, doi: 10.3389/fenrg.2023.1284676.
