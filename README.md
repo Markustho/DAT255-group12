@@ -88,14 +88,14 @@ Locate repository folder
 > cd into repository
 
 Use poetry to install the dependencies for the project
-´´´shell
-> poetry install
-> ´´´
+```shell
+ poetry install
+```
 
 Run whatever file you want to view from key files from above section
-´´´shell
+```shell
 > poetry python run "filename.type"
-> ´´´
+ ```
 
 # An exploration of the world of AgTech
 
