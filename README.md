@@ -78,11 +78,13 @@ Use poetry to install the neccesary components https://python-poetry.org/docs/ba
 
 2. Open powershell
 
-Bash:
+## Bash:
 Locate source folder
 > cd "repository source folder"
+
 Use poetry to install the dependencies for the project
 > poetry install
+
 Run whatever file you want to view from key files from above section
 > poetry python run "filename.type"
 
