@@ -15,29 +15,29 @@ See [./notebooks/](./notebooks/)
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
+    ├── Makefile           <- Not in use
     ├── README.md          <- The top-level README for developers using this project.
+    ├── Kaggle_notebook    <- Initial file exploring the machine learning models with different methods
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
+    │   ├── external       <- Not in use
+    │   ├── interim        <- Not in use
     │   ├── processed      <- # The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
+    │   └── raw            <- Not in use
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    ├── docs               <- Not in use
     │
     ├── models             <- Contains .pkl files from the deep and tree model
     │
     ├── notebooks          <- Not in use                                     
     │
-    ├── references         <- The paper used as reference is located here
+    ├── references         <- Not in use
     │
     ├── reports            <- Not in use
     │   └── figures        <- Not in use
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
+    ├── requirements.txt   <- Not in use
     │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
+    ├── setup.py           <- Not in use
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
@@ -47,7 +47,7 @@ See [./notebooks/](./notebooks/)
     │   ├── features       <- Not in use
     │   │   └── build_features.py
     │   │
-    │   ├── models         <- 
+    │   ├── models         <- folder for models that have splitters
     │   │   │                 
     │   │   ├── Kaggle_notebook.ipynb 
     │   │   └── Neural Network
