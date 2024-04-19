@@ -106,36 +106,36 @@ By ASL, 11.02.2024
 # Introduction
  * Set the stage for the report by highlighting the importance of AgTech in addressing global food security, sustainability challenges, and how this report aims to contribute to understanding and advancing AgTech solutions.
 
-# Part 1: Understanding prognostics and Predictive Maintainance
+# Part 1: Understanding Maintenance
 
-## What is prognostics? 
-* Overview of agriculture: scope and significance.
-* Key challenges in contemporary agriculture.
+## What is maintenance? 
+* Overview of agriculture: scope and significance. (preventative, reactive and predictive maintenance ?)
+* Key challenges in contemporary agriculture. (key challenges of maintenance programs of today)
 
 ## What is predictive maintenance?
 
-* Definition and scope of AgTech.
-* Current state of AgTech: innovations and applications.
+* Definition and scope of AgTech. (predictive maintenance)
+* Current state of AgTech: innovations and applications. 
 * The future of AgTech: emerging technologies and trends.
 
 # Part 2: Predictive maintenance in action: Case studies and experiments
 
 ## Methodology
-* Description of the experimental design and methodology.
+* Description of the experimental design and methodology. 
 * Specify the criteria for selecting case studies and experiments.
 * Data collection and analysis techniques.
 
-## Case studies
-* Detailed presentation of selected AgTech projects or experiments.
+## Case studies (wind turbine)
+* Detailed presentation of selected AgTech projects or experiments. (spanish windturbine farm off the coast of africa, turbine 07, etc... )
 * Analysis of the data collected.
 * Results and findings.
 
 # Part 3: Implications and future directions
 
 ## Discussion
-* Interpretation of results.
-* Implications for the future of agriculture and AgTech.
-* Challenges and opportunities.
+* Interpretation of results. (RMSE differences and which model performed best)
+* Implications for the future of agriculture and AgTech. (machine learning for maintenance programs)
+* Challenges and opportunities. (accuracy challenges, cost reduction opportunities)
 
 ## Conclusion
 * Summary of key findings and their significance.
