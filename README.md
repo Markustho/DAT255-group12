@@ -1,23 +1,14 @@
-Agriculture Technology (AgTech)
+Deep learning for tabular data
 ==============================
 
-A hands-on exploration of the world of AgTech.
-
-> This is an example used in [DAT255](https://github.com/HVL-ML/DAT255). It is a skeleton project meant to help students get started with their own projects.
-
-
-The slides accompanying the project can be found [here](https://docs.google.com/presentation/d/e/2PACX-1vSFtTsAzrGwXETVMaQlbelOe8VNptf3GTVGABAKh6koSu2Wcu74QdYOkh7-W6blsB5xUwNljDwA4I0C/pub?start=false&loop=false&delayms=3000).
-
-
-## Report
-
-See [./reports/report.md](./reports/report.md)
+A practical application of machine learning and deep learning on tabular dataset from EDP. Wind turbine
+data by was retrieved from their webpage https://www.edp.com/en/innovation/open-data/data. In this project the prediction models had a goal to guess on the bearing temperature of the generator. Different approaches are explored in the repositiory with variations of models, validation sets, training, and feature engineering. The project uses reseach paper by Bindingsbø, Singh, Kaprate, Øvsthus [1]
 
 ## Jupyter Notebooks
 
 See [./notebooks/](./notebooks/)
 
-## Oppgave:
+## Project:
 ![image](https://github.com/Markustho/DAT255-group12/assets/122047522/b8ac9188-b223-4fb7-99d0-ac0d4a1cddcd)
 
 ## Project Organization
@@ -29,21 +20,19 @@ See [./notebooks/](./notebooks/)
     ├── data
     │   ├── external       <- Data from third party sources.
     │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
+    │   ├── processed      <- # The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── models             <- Contains .pkl files from the deep and tree model
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- Not in use                                     
     │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    ├── references         <- The paper used as reference is located here
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
+    ├── reports            <- Not in use
+    │   └── figures        <- Not in use
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
@@ -52,17 +41,24 @@ See [./notebooks/](./notebooks/)
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
-    │   ├── data           <- Scripts to download or generate data
+    │   ├── data           <- Not in use
     │   │   └── make_dataset.py
     │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
+    │   ├── features       <- Not in use
     │   │   └── build_features.py
     │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
+    │   ├── models         <- 
+    │   │   │                 
+    │   │   ├── Kaggle_notebook.ipynb 
+    │   │   └── Neural Network
+    │   │   │                └── 4_neural_network.ipynb
+    │   │   └── Random Forest
+    │   │                    └── 1_split_datasets.ipynb
+    │   │                    └── 2_clean_data_train_model.ipynb
+    │   │                    └── 3_use_RF_model.ipynb
+    │   │                    └── 5_interpreting_results.ipynb
+    │   │                    
+    │   │                    
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │       └── visualize.py
     │
@@ -72,3 +68,34 @@ See [./notebooks/](./notebooks/)
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+# Key files
+src/models/Kaggle_notebook.ipynb - File to get a feel for the machine learning methods and data handling. Make this the first file you read
+
+src/models/random forest/  - random forest tester with splitter (this folder has multiple files)
+
+src/models/Neural network/  - neural network with splitter (this folder has multiple files)
+
+# How to run
+Use poetry to install the neccesary components https://python-poetry.org/docs/basic-usage/
+
+1. Clone the github repository
+
+2. Open powershell
+
+## Bash:
+Locate source folder
+> cd "repository source folder"
+
+Use poetry to install the dependencies for the project
+> poetry install
+
+Run whatever file you want to view from key files from above section
+> poetry python run "filename.type"
+
+
+
+
+# Bibliography:
+
+[1] O. T. Bindingsbø, M. Singh, K. Øvsthus, og A. Keprate, «Fault detection of a wind turbine generator bearing using interpretable machine learning», Front. Energy Res., bd. 11, s. 1284676, des. 2023, doi: 10.3389/fenrg.2023.1284676.
