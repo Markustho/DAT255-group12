@@ -15,7 +15,6 @@ See [./notebooks/](./notebooks/)
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Not in use
     ├── README.md          <- The top-level README for developers using this project.
     ├── Kaggle_notebook    <- Initial file exploring the machine learning models with different methods
     ├── data
@@ -121,7 +120,7 @@ By ASL, 11.02.2024
 * Challenges and opportunities. (accuracy & not sufficient quantities of failuredata challenges, cost reduction opportunities)
 
 ## Conclusion
-* Summary of key findings and their significance.
+* Summary of key findings and their significance. (why is e.g. random forests and XGBoost better than neural networks for tabular data?)
 * Recommendations for future research and applications in AgTech
 
 # Bibliography:
