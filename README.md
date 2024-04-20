@@ -94,7 +94,7 @@ Use poetry to install the dependencies for the project
 
 Run whatever file you want to view from key files from above section
 ```shell
-> poetry python run "filename.type"
+> poetry run python3 "filename.type"
  ```
 
 # An exploration of the world of AgTech
