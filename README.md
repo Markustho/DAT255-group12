@@ -15,39 +15,25 @@ See [./notebooks/](./notebooks/)
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
+    ├── Kaggle_notebook    <- Initial file exploring the machine learning models with different methods
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
     │   ├── processed      <- # The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
+    │   └── raw            <- # Raw datasets from EDP
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    ├── docs               <- Not in use
     │
     ├── models             <- Contains .pkl files from the deep and tree model
+    │                                 
+    ├── references         <- Article references 
     │
-    ├── notebooks          <- Not in use                                     
+    ├── reports            <- Report template
     │
-    ├── references         <- The paper used as reference is located here
     │
-    ├── reports            <- Not in use
-    │   └── figures        <- Not in use
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
-    │   ├── data           <- Not in use
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Not in use
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- 
+    │   ├── models         <- folder for models that have splitters
     │   │   │                 
     │   │   ├── Kaggle_notebook.ipynb 
     │   │   └── Neural Network
@@ -58,11 +44,7 @@ See [./notebooks/](./notebooks/)
     │   │                    └── 3_use_RF_model.ipynb
     │   │                    └── 5_interpreting_results.ipynb
     │   │                    
-    │   │                    
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+
 
 
 --------
@@ -77,25 +59,76 @@ src/models/random forest/  - random forest tester with splitter (this folder has
 src/models/Neural network/  - neural network with splitter (this folder has multiple files)
 
 # How to run
-Use poetry to install the neccesary components https://python-poetry.org/docs/basic-usage/
+Use poetry to install the necessary project dependencies https://python-poetry.org/docs/basic-usage/
 
 1. Clone the github repository
 
 2. Open powershell
 
 ## Bash:
-Locate source folder
-> cd "repository source folder"
+Locate repository folder
+> cd into repository
 
 Use poetry to install the dependencies for the project
-> poetry install
+```shell
+ poetry install
+```
 
 Run whatever file you want to view from key files from above section
-> poetry python run "filename.type"
+```shell
+> poetry run python3 "filename.type"
+ ```
 
+# An exploration of the world of AgTech
 
+By ASL, 11.02.2024
 
+> This is a template for a report on the world of AgTech used as a demonstration of DAT255 Course Projects. It's meant to help students get started with their own projects. It is not necessary to follow this structure.
+
+# Introduction
+ * Set the stage for the report by highlighting the importance of AgTech in addressing global food security, sustainability challenges, and how this report aims to contribute to understanding and advancing AgTech solutions.
+
+# Part 1: Understanding Maintenance
+
+## What is maintenance? 
+* Overview of agriculture: scope and significance. (preventative, reactive and predictive maintenance ?)
+* Key challenges in contemporary agriculture. (key challenges of maintenance programs of today)
+
+## What is predictive maintenance?
+
+* Definition and scope of AgTech. (predictive maintenance)
+* Current state of AgTech: innovations and applications. 
+* The future of AgTech: emerging technologies and trends.
+
+# Part 2: Predictive maintenance in action: Case studies and experiments
+
+## Methodology
+* Description of the experimental design and methodology. 
+* Specify the criteria for selecting case studies and experiments.
+* Data collection and analysis techniques.
+
+## Case studies (wind turbine)
+* Detailed presentation of selected AgTech projects or experiments. (spanish windturbine farm off the coast of africa, turbine 07, etc... )
+* Analysis of the data collected.
+* Results and findings.
+
+# Part 3: Implications and future directions
+
+## Discussion
+* Interpretation of results. (RMSE differences and which model performed best)
+* Implications for the future of agriculture and AgTech. (machine learning for maintenance programs)
+* Challenges and opportunities. (accuracy & not sufficient quantities of failuredata challenges, cost reduction opportunities)
+
+## Conclusion
+* Summary of key findings and their significance. (why is e.g. random forests and XGBoost better than neural networks for tabular data?)
+* Recommendations for future research and applications in AgTech
 
 # Bibliography:
 
 [1] O. T. Bindingsbø, M. Singh, K. Øvsthus, og A. Keprate, «Fault detection of a wind turbine generator bearing using interpretable machine learning», Front. Energy Res., bd. 11, s. 1284676, des. 2023, doi: 10.3389/fenrg.2023.1284676.
+
+# Appendices (if applicable)
+* Additional data, charts, or information that support the report but are too detailed for the main text.
+
+
+
