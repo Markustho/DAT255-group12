@@ -19,33 +19,20 @@ See [./notebooks/](./notebooks/)
     ├── README.md          <- The top-level README for developers using this project.
     ├── Kaggle_notebook    <- Initial file exploring the machine learning models with different methods
     ├── data
-    │   ├── external       <- Not in use
-    │   ├── interim        <- Not in use
     │   ├── processed      <- # The final, canonical data sets for modeling.
-    │   └── raw            <- Not in use
+    │   └── raw            <- # Raw datasets from EDP
     │
     ├── docs               <- Not in use
     │
     ├── models             <- Contains .pkl files from the deep and tree model
+    │                                 
+    ├── references         <- Article references 
     │
-    ├── notebooks          <- Not in use                                     
+    ├── reports            <- Report template
     │
-    ├── references         <- Not in use
     │
-    ├── reports            <- Not in use
-    │   └── figures        <- Not in use
-    │
-    ├── requirements.txt   <- Not in use
-    │
-    ├── setup.py           <- Not in use
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Not in use
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Not in use
-    │   │   └── build_features.py
     │   │
     │   ├── models         <- folder for models that have splitters
     │   │   │                 
@@ -58,11 +45,7 @@ See [./notebooks/](./notebooks/)
     │   │                    └── 3_use_RF_model.ipynb
     │   │                    └── 5_interpreting_results.ipynb
     │   │                    
-    │   │                    
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+
 
 
 --------
@@ -135,19 +118,18 @@ By ASL, 11.02.2024
 ## Discussion
 * Interpretation of results. (RMSE differences and which model performed best)
 * Implications for the future of agriculture and AgTech. (machine learning for maintenance programs)
-* Challenges and opportunities. (accuracy challenges, cost reduction opportunities)
+* Challenges and opportunities. (accuracy & not sufficient quantities of failuredata challenges, cost reduction opportunities)
 
 ## Conclusion
 * Summary of key findings and their significance.
 * Recommendations for future research and applications in AgTech
 
-# References
-* Citing all sources of information, data, and literature reviewed.
+# Bibliography:
+
+[1] O. T. Bindingsbø, M. Singh, K. Øvsthus, og A. Keprate, «Fault detection of a wind turbine generator bearing using interpretable machine learning», Front. Energy Res., bd. 11, s. 1284676, des. 2023, doi: 10.3389/fenrg.2023.1284676.
 
 # Appendices (if applicable)
 * Additional data, charts, or information that support the report but are too detailed for the main text.
 
 
-# Bibliography:
 
-[1] O. T. Bindingsbø, M. Singh, K. Øvsthus, og A. Keprate, «Fault detection of a wind turbine generator bearing using interpretable machine learning», Front. Energy Res., bd. 11, s. 1284676, des. 2023, doi: 10.3389/fenrg.2023.1284676.
