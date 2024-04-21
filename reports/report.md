@@ -81,6 +81,8 @@ Random forest and neural network was trained for 66% of 2016 data, validated on 
 
 
 # Part 3: Implications and future directions
+Implications of the project included not using the same data processing for XGBoost/Linear Regression as for the random forest and neural networks. Therefore we can't accurately compare the RMSE of those two sets of models. This happened due us having two different takes on datacleaning. Variation in RMSE could also be due to data processing differences.
+
 Future DAT255 projects related to predictive maintenance can implement different types of models. Examples can be to do something with vibration data to use. It would also be interesting to see how many timesteps into the future one could return accurately by returning multiple temperatures rather than one. It's also possible to go further into the models themselves to evaluate why performance differs and how one can leverage for example deep learning as efficiently as possible.
 
 Further work would also include making conditional functionality based on the deviation of predicted temperature values and actual temperature values. Ultimately, we want to predict when a bearing is going to fail. This would require implementing a threshold and some sort of conditional scheme. For example, if the temperature of the bearing is high AND a deviation threshold is met, we want to take action, and trigger scheduling of maintenance events. This would require further planning and work. 
