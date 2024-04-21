@@ -20,7 +20,7 @@ Traditionally the maintenance is done reactively, so the challenge here is to im
 Alot of methodology is improving rapidly due to the current focus on machine learning in general. However, as a whole the field does not rely on only machine learning, but utilizes other models such as physical and statistical. In addition hybrid models are researched. Predictive maintenance extends into the field of prognostics health management where the decisions for maintenance is the focus. This is where predictive maintenance metrics are used to actually plan maintenance events.
 
 <img src="../references/figure1.png" alt= “” width="600">
-Figure 1: Cost increase with reactive maintenance [2]
+<sup><sub>Figure 1: Cost increase with reactive maintenance [2]</sub></sup>
 
 
 # Part 2: Predictive maintenance in action: Case studies and experiments
@@ -67,7 +67,7 @@ One of the sensor data readings in the dataset is temperature data on a bearing.
 
 <img src="../references/table1.png" alt= “” width="600">
 
-Table 1: RMSE of the models on the testset. 
+<sup><sub>Table 1: RMSE of the models on the testset. </sub></sup>
 
 
 Linear regression and XGBoost was trained for the whole of 2016, and the model was validated on an interval before the failure of the generator occurred. 
@@ -101,7 +101,7 @@ When it comes to splitters, there may also be a possibility to capture more of t
 The plan was also to use a tool called DBScan to clean the data with a domain knowledge standpoint. We don’t want to include data where the sensor was damaged or the wind turbine out of service. As it stands, these factors all impact the accuracy of the model’s predictions. Neural networks are especially sensitive to long tail distributed data, which we see the 2016 training has due to sensor failure.
 
 <img src="../references/figure2.png" alt= “” width="600">
-Figure 2: Actual training data (in blue) and prediction (in orange). From the random forest model. We can see how faulty sensors impact the data that’s being trained on.
+<sup><sub>Figure 2: Actual training data (in blue) and prediction (in orange). From the random forest model. We can see how faulty sensors impact the data that’s being trained on.</sub></sup>
 
 While cleaning the data for the random forest implementation slightly worsened the RMSE of the training and validation set, it should make the model more robust to timesseries changes and variations. As a result, predictions made about the bearing temperature as time goes will be more accurate relative to predictions made when not cleaning the data.
 
