@@ -2,7 +2,7 @@ Deep learning for tabular data
 ==============================
 
 A practical application of machine learning and deep learning on tabular dataset from EDP. Wind turbine
-data by was retrieved from their webpage https://www.edp.com/en/innovation/open-data/data. In this project the prediction models had a goal to guess on the bearing temperature of the generator. Different approaches are explored in the repositiory with variations of models, validation sets, training, and feature engineering. The project uses reseach paper by Bindingsbø, Singh, Kaprate, Øvsthus [1]
+data by was retrieved from their webpage https://www.edp.com/en/innovation/open-data/data. In this project the prediction models had a goal to guess on the bearing temperature of the generator. Different approaches are explored in the repositiory with variations of models, validation sets, training, and feature engineering. The project builds upon the work done by Bindingsbø, Singh, Kaprate, Øvsthus [1]
 
 ## Jupyter Notebooks
 
@@ -50,7 +50,7 @@ Random forest and neural network implementations go hand in hand. We suggest to 
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+<p><small>Project template based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 
 # Key files
 src/models/Kaggle_notebook.ipynb - File to get a feel for the machine learning methods and data handling. Make this the first file you read
@@ -77,11 +77,11 @@ Use poetry to install the dependencies for the project
 
 Run whatever file you want to view from key files from above section
 ```shell
-> poetry run python3 "filename.type"
+ poetry run python3 "filename.type"
  ```
 
 # Report
-[Click link](reports/report.md)
+[Click here to find report](reports/report.md)
 
 
 
