@@ -39,14 +39,14 @@ Alot of methodology is improving rapidly due to the current focus on machine lea
 
 ## Methodology
 
-Our project will be based on a quantitative methodology. For this project we will be using publicly available wind turbine data from a spanish company named EDP. The data consists of six datasets that are structured in the following manner:
+Our project will be based on a quantitative methodology. For this project we will be using publicly available wind turbine data from a spanish company named EDP. The data consists of six datasets:
 
-2016 sensor readings from 55 different sensors on all wind turbines. 
-2017 sensor readings from 55 different sensors on all wind turbines. 
-2016 Onsite weather data
-2017 Onsite weather data
-2016 Failure data
-2017 Failure data
+* 2016 sensor readings from 55 different sensors on all wind turbines. 
+* 2017 sensor readings from 55 different sensors on all wind turbines. 
+* 2016 Onsite weather data
+* 2017 Onsite weather data
+* 2016 Failure data
+* 2017 Failure data
 
 The data is formatted so that we have an average, a max and a min value for a certain time interval in the data. So it's not totally raw, and has been pre processed in some way beforehand. The datetime is included in the dataset also. The first step of the project was to get a feel for the data and open it in python. In Notebook_blogpost_tabular_data.ipynb the exploration of the data is done in a systematic way to get a feel for the data, and familiarize it to working with the models. Later separate models were created.
 
