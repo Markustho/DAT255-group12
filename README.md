@@ -79,49 +79,66 @@ Run whatever file you want to view from key files from above section
 > poetry run python3 "filename.type"
  ```
 
-# An exploration of the world of AgTech
+# Predictive maintenance modeling on a wind turbine bearing
 
-By ASL, 11.02.2024
+By Magnus S. Nordeide, Markus A. Y. Thorsnes, 21.04.2024
 
-> This is a template for a report on the world of AgTech used as a demonstration of DAT255 Course Projects. It's meant to help students get started with their own projects. It is not necessary to follow this structure.
 
 # Introduction
- * Set the stage for the report by highlighting the importance of AgTech in addressing global food security, sustainability challenges, and how this report aims to contribute to understanding and advancing AgTech solutions.
+
+Predictive maintenance is an emerging field where the goal is to save money on maintenance of components by using a conditional maintenance program instead of an interval time based maintenance program. 
+Machine learning opens the possibility to predict when a fault is going to happen, before it happens, by using past sensor data and past failure data. 
+Some of the issues on predicitve maintenance involves applying past data correctly and in an informative manner, and properly understanding and making decisions based on the information given by the ouputs of the models. 
+
+```
+* Set the stage for the report by highlighting the importance of AgTech in addressing global food security, sustainability challenges, and how this report aims to contribute to understanding and advancing AgTech solutions.
+```
 
 # Part 1: Understanding Maintenance
 
 ## What is maintenance? 
+```
 * Overview of agriculture: scope and significance. (preventative, reactive and predictive maintenance ?)
 * Key challenges in contemporary agriculture. (key challenges of maintenance programs of today)
+```
 
 ## What is predictive maintenance?
-
+```
 * Definition and scope of AgTech. (predictive maintenance)
 * Current state of AgTech: innovations and applications. 
 * The future of AgTech: emerging technologies and trends.
+```
 
 # Part 2: Predictive maintenance in action: Case studies and experiments
 
+```
 ## Methodology
 * Description of the experimental design and methodology. 
 * Specify the criteria for selecting case studies and experiments.
 * Data collection and analysis techniques.
+```
 
 ## Case studies (wind turbine)
+```
 * Detailed presentation of selected AgTech projects or experiments. (spanish windturbine farm off the coast of africa, turbine 07, etc... )
 * Analysis of the data collected.
 * Results and findings.
+```
 
 # Part 3: Implications and future directions
 
 ## Discussion
+```
 * Interpretation of results. (RMSE differences and which model performed best)
 * Implications for the future of agriculture and AgTech. (machine learning for maintenance programs)
 * Challenges and opportunities. (accuracy & not sufficient quantities of failuredata challenges, cost reduction opportunities)
+```
 
 ## Conclusion
+```
 * Summary of key findings and their significance. (why is e.g. random forests and XGBoost better than neural networks for tabular data?)
 * Recommendations for future research and applications in AgTech
+```
 
 # Bibliography:
 
