@@ -20,7 +20,7 @@ Traditionally the maintenance is done reactively, so the challenge here is to im
 Alot of methodology is improving rapidly due to the current focus on machine learning in general. However, as a whole the field does not rely on only machine learning, but utilizes other models such as physical and statistical. In addition hybrid models are researched. Predictive maintenance extends into the field of prognostics health management where the decisions for maintenance is the focus. This is where predictive maintenance metrics are used to actually plan maintenance events.
 
 <img src="../references/figure1.png" alt= “” width="600">
-<sup><sub>Figure 1: Cost increase with reactive maintenance [2]</sub></sup>
+<sub>Figure 1: Cost increase with reactive maintenance [2]</sub>
 
 
 # Part 2: Predictive maintenance in action: Case studies and experiments
