@@ -65,12 +65,15 @@ For our case study we therefore want to predict the temperature of a bearing in 
 
 In our case study we are focusing on wind turbine number 7, due to one available failure data there which occurred in 2017
 
-Linear regression and XGBoost was trained for the whole of 2016, and the model was validated on an interval before the failure of the generator occurred, in 2017. Random forest and neural network was trained for 66% of 2016 data, validated on 33% of 2016 data, and tested on 2017 data. The reasoning for that choice is because the study that we are basing this work upon chose that split. 
+Linear regression and XGBoost was trained for the whole of 2016, and the model was validated on an interval before the failure of the generator occurred, in 2017. 
+
+Random forest and neural network was trained for 66% of 2016 data, validated on 33% of 2016 data, and tested on 2017 data. The reasoning for that choice is because the study that we are basing this work upon chose that split. 
 
 ## Results
 
 <img src="../references/table1.png" alt= “” width="600">
 <sub>Table 1: RMSE of the models on the testset. </sub>
+
 
 
 <img src="../references/figur3.png" alt= “” width="600">
