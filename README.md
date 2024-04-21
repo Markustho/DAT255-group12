@@ -35,17 +35,18 @@ See [./notebooks/](./notebooks/)
     │   │
     │   ├── models         <- folder for models that have splitters
     │   │   │                 
-    │   │   ├── Kaggle_notebook.ipynb 
+    │   │   ├── Notebook_blogpost_tabular_data.ipynb 
     │   │   └── Neural Network
     │   │   │                └── 4_neural_network.ipynb
     │   │   └── Random Forest
     │   │                    └── 1_split_datasets.ipynb
     │   │                    └── 2_clean_data_train_model.ipynb
     │   │                    └── 3_use_RF_model.ipynb
-    │   │                    └── 5_interpreting_results.ipynb
-    │   │                    
+    │   │                    └── 4_interpreting_results.ipynb
+                   
+Notebook_blogpost_tabular_data.ipynb include the linear regression and XGBoost models. It also includes a short blogpost. 
 
-
+Random forest and neural network implementations go hand in hand. We suggest to open the files in order, 1->2->3->4
 
 --------
 
