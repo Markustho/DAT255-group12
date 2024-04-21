@@ -16,11 +16,17 @@ This project is a case study where the goal is to apply different machine learni
 
 # Part 1: Understanding Maintenance
 
-There are three main maintenance programs that are commonly discussed: 1) Preventative maintenance, 2) Reactive maintenance, 3) Predictive maintenance. See figure 1.
+There are three main maintenance programs that are commonly discussed: 
+
+1) Preventative maintenance, 2) Reactive maintenance, 3) Predictive maintenance. See figure 1.
+   
 Preventive maintenance is the act of replacing a component before an increased degradation state of the component has started. This maintenance program is a static time-interval based maintenance program. 
+
 Reactive maintenance consists of replacing components after failure has occurred. This usually leads to huge monetary losses.
 Predictive maintenance aims to make an informed decision on the maintenance event based on the condition of the equipment to avoid failure or prematurely replacing the component.
+
 Traditionally the maintenance is done reactively or preventatively, so the challenge here is to improve this process by seeing the failure in advance and doing maintenance before failure occurs.
+
 Alot of methodology is improving rapidly due to the current focus on machine learning in general. However, as a whole the field does not rely on only machine learning, but utilizes other models such as physical and statistical models. In addition hybrid models are researched. Predictive maintenance extends into the field of prognostics health management where the decisions for maintenance is the focus. This is where predictive maintenance metrics are used to actually plan maintenance events.
 
 <img src="../references/figure1.png" alt= “” width="600">
@@ -47,11 +53,6 @@ In this project we will use linear regression, random forest, XGBoost and neural
 
 For selecting case studies and experiments on predictive maintenance it’s important to have information on when failures have occurred in the past. In our case, it doesn’t hurt too much to not have it, because we are not taking the model to decision-level, but we want to model the behavior of some component such that when our prediction deviates from the actual sensor readings, we can assume that it’s breaking. 
 
-```
-* Description of the experimental design and methodology. 
-* Specify the criteria for selecting case studies and experiments.
-* Data collection and analysis techniques.
-```
 
 ## Case studies
 
@@ -75,20 +76,12 @@ Linear regression and XGBoost was trained for the whole of 2016, and the model w
 <sub>Figure 2: XGBoost prediction compared with the actual measurement from the sensor at the time where right before failure. Notice how they deviate in the tops. This indicates that the bearing is unhealthy</sub>
 
 
-
-```
-* Detailed presentation of selected AgTech projects or experiments. (spanish wind turbine farm off the coast of africa, turbine 07, etc... )
-* Analysis of the data collected.
-* Results and findings.
-```
-
-
-
 # Part 3: Implications and future directions
 Future DAT255 projects related to predictive maintenance can implement different types of models. Examples can be to do something with vibration data to use. It would also be interesting to see how many timesteps into the future one could return accurately by returning multiple temperatures rather than one. It's also possible to go further into the models themselves to evaluate why performance differs and how one can leverage for example deep learning as efficiently as possible.
 
 Further work would also include making conditional functionality based on the deviation of predicted temperature values and actual temperature values. Ultimately, we want to predict when a bearing is going to fail. This would require implementing a threshold and some sort of conditional scheme. For example, if the temperature of the bearing is high AND a deviation threshold is met, we want to take action, and trigger scheduling of maintenance events. This would require further planning and work. 
 
+For data processing and machine learning, future research could include using other ways to represent data and predict temperatures. Methods like sliding windows to continuously predict future temperatures, or converting the timesseries to spectograms and use deep neural networks for image classification, could be explored.
 
 ## Discussion
 Our results show that even the most basic approaches do work for our one validating failure. However, this is important to note that the models should be tested for multiple scenarios as failures occur on the turbine.
@@ -97,7 +90,7 @@ An important result is that the deviation between the measured temperature and t
 
 Improvements to the model are still possible, and there are things that can be further explored. We only used the data from one turbine for training while there are many from the same wind farm available in the same dataset. However, it's not certain that this will lead to better results because it would mean training on a more general basis than if it's the exact same turbine that is the goal of being predicted. If the goal is to have a more robust model though. This can be a good idea.
 
-There was an expectation that the XGBoost model would outperform the other models based on the previous research. However, it did not perform as good as expected
+There was an expectation that the XGBoost model would outperform the other models based on the previous research. However, it did not perform as good as expected.
 
 When it comes to splitters, there may also be a possibility to capture more of the seasonal effects from time series if one trains on more data. Right now the models are mostly trained on 2016 data and that data is split, so the model was not trained on a full year. In the process of the project, this was tested once, and appeared to actually reduce the accuracy just a little bit, which was opposite of the hypothesis for that scenario.
 
@@ -109,35 +102,16 @@ The plan was also to use a tool called DBScan to clean the data with a domain kn
 While cleaning the data for the random forest implementation slightly worsened the RMSE of the training and validation set, it should make the model more robust to timesseries changes and variations. As a result, predictions made about the bearing temperature as time goes will be more accurate relative to predictions made when not cleaning the data.
 
 
-
-
-
-
-
-```
-* Interpretation of results. (RMSE differences and which model performed best)
-* Implications for the future of agriculture and AgTech. (machine learning for maintenance programs)
-* Challenges and opportunities. (accuracy & not sufficient quantities of failure data challenges, cost reduction opportunities)
-```
-
 ## Conclusion
 The conclusion of the project is that with implementation of machine learning models it is possible to make a predictor for the temperature of a bearing and validate the model against the sensor. Out of the models we tested, a random forest performed best for this case. However, it's also important to note that further work must be done to ensure consistency in the result. 
 
 Deep models and more advanced techniques can be utilized to capture specific elements within the data. More specifically non-linear relationships between the data. Domain knowledge can also affect the choice of models because one might use mathematical relationships as a foundation for the choice of data to use to ensure one captures the right data like in [1]. 
 
 
-```
-* Summary of key findings and their significance. (why is e.g. random forests and XGBoost better than neural networks for tabular data?)
-* Recommendations for future research and applications in AgTech
-```
-
-
 # Bibliography:
 
 [1] O. T. Bindingsbø, M. Singh, K. Øvsthus, og A. Keprate, «Fault detection of a wind turbine generator bearing using interpretable machine learning», Front. Energy Res., bd. 11, s. 1284676, des. 2023, doi: 10.3389/fenrg.2023.1284676.
+
 [2] R. Siraskar, S. Kumar, S. Patil, A. Bongale, og K. Kotecha, «Reinforcement learning for predictive maintenance: a systematic technical review», Artif Intell Rev, bd. 56, nr. 11, s. 12885–12947, nov. 2023, doi: 10.1007/s10462-023-10468-6.
 
-
-# Appendices (if applicable)
-* Additional data, charts, or information that support the report but are too detailed for the main text.
 
