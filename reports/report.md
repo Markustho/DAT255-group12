@@ -71,7 +71,7 @@ Linear regression and XGBoost was trained for the whole of 2016, and the model w
 <sub>Table 1: RMSE of the models on the testset. </sub>
 
 
-<img src="../references/figurexgb.png" alt= “” width="600">
+<img src="../references/figur3.png" alt= “” width="600">
 <sub>Figure 2: XGBoost prediction compared with the actual measurement from the sensor at the time where right before failure. Notice how they deviate in the tops. This indicates that the bearing is unhealthy</sub>
 
 
