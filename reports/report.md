@@ -23,6 +23,7 @@ There are three main maintenance programs that are commonly discussed:
 Preventive maintenance is the act of replacing a component before an increased degradation state of the component has started. This maintenance program is a static time-interval based maintenance program. 
 
 Reactive maintenance consists of replacing components after failure has occurred. This usually leads to huge monetary losses.
+
 Predictive maintenance aims to make an informed decision on the maintenance event based on the condition of the equipment to avoid failure or prematurely replacing the component.
 
 Traditionally the maintenance is done reactively or preventatively, so the challenge here is to improve this process by seeing the failure in advance and doing maintenance before failure occurs.
