@@ -67,7 +67,7 @@ One of the sensor data readings in the dataset is temperature data on a bearing.
 
 <img src="../references/table1.png" alt= “” width="600">
 
-<sup><sub>Table 1: RMSE of the models on the testset. </sub></sup>
+<sub>Table 1: RMSE of the models on the testset. </sub>
 
 
 Linear regression and XGBoost was trained for the whole of 2016, and the model was validated on an interval before the failure of the generator occurred. 
@@ -101,7 +101,7 @@ When it comes to splitters, there may also be a possibility to capture more of t
 The plan was also to use a tool called DBScan to clean the data with a domain knowledge standpoint. We don’t want to include data where the sensor was damaged or the wind turbine out of service. As it stands, these factors all impact the accuracy of the model’s predictions. Neural networks are especially sensitive to long tail distributed data, which we see the 2016 training has due to sensor failure.
 
 <img src="../references/figure2.png" alt= “” width="600">
-<sup><sub>Figure 2: Actual training data (in blue) and prediction (in orange). From the random forest model. We can see how faulty sensors impact the data that’s being trained on.</sub></sup>
+<sub>Figure 2: Actual training data (in blue) and prediction (in orange). From the random forest model. We can see how faulty sensors impact the data that’s being trained on.</sub>
 
 While cleaning the data for the random forest implementation slightly worsened the RMSE of the training and validation set, it should make the model more robust to timesseries changes and variations. As a result, predictions made about the bearing temperature as time goes will be more accurate relative to predictions made when not cleaning the data.
 
