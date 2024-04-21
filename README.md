@@ -53,7 +53,7 @@ Random forest and neural network implementations go hand in hand. We suggest to 
 <p><small>Project template based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 
 # Key files
-src/models/Kaggle_notebook.ipynb - File to get a feel for the machine learning methods and data handling. Make this the first file you read
+src/models/Notebook_blogpost_tabular_data.ipynb - File to get a feel for the machine learning methods and data handling. Make this the first file you read
 
 src/models/random forest/  - random forest tester with splitter (this folder has multiple files)
 
