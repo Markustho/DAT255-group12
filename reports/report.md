@@ -72,7 +72,7 @@ Random forest and neural network was trained for 66% of 2016 data, validated on 
 ## Results
 
 <img src="../references/table1.png" alt= “” width="600">
-<sub>Table 1: RMSE of the models on the testset. </sub>
+<sub>Table 1: RMSE of the models on the training and validation set. </sub>
 
 
 
