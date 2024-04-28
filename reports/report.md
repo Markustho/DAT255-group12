@@ -1,6 +1,6 @@
 # Predictive maintenance modeling on a wind turbine bearing
 
-By Magnus S. Nordeide, Markus A. Y. Thorsnes, 21.04.2024
+By Magnus S. Nordeide, Markus A. Y. Thorsnes, Halldor B. Thorsteinsson 21.04.2024
 
 
 # Introduction
